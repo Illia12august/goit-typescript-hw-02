@@ -12,5 +12,6 @@ enum Week {
   Sunday = 'Sunday',
 }
 function isWeekend(day: Week): boolean {
-  return day !== Week.Saturday && day !== Week.Sunday
+  return day === Week.Saturday || day === Week.Sunday
 }
+//!!! НЕ ДУЖЕ ЗРОЗУМІЛО ФОРМУЛЮВАННЯ ЗАПИТАННЯ, ТРУ ПИСАТИ КОЛИ РОБОЧИЙ ДЕНЬ ТИЖНЯ, ЧИ КОЛИ ВИХІДНИЙ?
